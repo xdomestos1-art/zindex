@@ -1,3 +1,6 @@
+--stop tryna skid you faggot ass ng
+
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
@@ -8,6 +11,8 @@ local Games = {
     [18642421777] = "https://api.jnkie.com/api/v1/luascripts/public/e737650962b2f1ff1930b75512daf046f929fb611603c209533162189c897cc3/download", -- Tha Bronx 3 VC
     [130700367963690]  = "https://api.jnkie.com/api/v1/luascripts/public/d8e2e4aa5142ced049e3787ce042c7bb946a9a72477315ec3279c7aa7e352822/download" -- Philly Streets 2
 }
+
+getgenv().SCRIPT_KEY = script_key
 
 local ScriptURL = Games[game.PlaceId]
 
